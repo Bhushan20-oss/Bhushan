@@ -6,6 +6,7 @@ import About from './Components/About';
 import Callingapis from './Components/Callingapis';
 import Galaxy from './Components/Galaxy';
 import Projects from './Components/Projects';
+import Gallary from './Components/Gallary'
 
 const App = () => {
   return (
@@ -44,11 +45,13 @@ const App = () => {
       </section>
 
       {/* API Section */}
-      <section className="bg-gradient-to-b from-gray-900 via-gray-800 to-gray-800 text-white">
+      {/* <section className="bg-gradient-to-b from-gray-900 via-gray-800 to-gray-800 text-white">
         <div className="px-4 sm:px-6 md:px-12 lg:px-24">
           <Callingapis />
         </div>
-      </section>
+      </section> */}
+
+      <Gallary/>
 
       {/* Footer */}
       <Footer />

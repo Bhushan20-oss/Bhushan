@@ -173,10 +173,10 @@ export default function InfiniteScroll({
       >
         {items.map((item, i) => (
           <div
-            className="flex items-center justify-center p-4 text-xl font-semibold text-center border-2 border-white rounded-[15px] select-none box-border relative"
+            className="flex items-center -m-10 justify-center p-2 text-xl font-semibold text-center border-2 border-white rounded-[15px] select-none box-border relative z-50"
             key={i}
             style={{
-              height: `${itemMinHeight}px`,
+              height: `400px`,
               marginTop: negativeMargin,
             }}
           >

@@ -69,7 +69,7 @@ const About = () => {
                   View Projects
                 </a>
                 <a
-                  href="https://drive.google.com/file/d/1JgdOU_7kgELUzEIx0wcKXAKhJllVR8w8/view?usp=drive_link"
+                  href="hhttps://drive.google.com/file/d/16xJ5gly4d2H6i4zk0ADHwiUtHIe43AjX/view?usp=drive_link"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-block border border-gray-700 hover:bg-gray-800 text-gray-200 font-medium py-2 px-4 rounded-md transition-transform duration-300 ease-out hover:scale-105"

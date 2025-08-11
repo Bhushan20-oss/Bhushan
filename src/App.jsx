@@ -1,5 +1,5 @@
 import React, { Suspense, lazy, useEffect } from "react";
-import { SpeedInsights } from "@vercel/speed-insights/next"
+import { SpeedInsights } from "@vercel/speed-insights/vue"
 
 // Lazy imports
 const Navbar = lazy(() => import("./Components/Navbar"));
